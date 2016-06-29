@@ -14,10 +14,10 @@ android {
     }
     signingConfigs {//签名的配置
         release {
-            storeFile file("WuXiaolong.jks")
-            storePassword 'android'
-            keyAlias 'android'
-            keyPassword 'android'
+            storeFile file("epointkey.jks")
+            storePassword '123456'
+            keyAlias 'alad'
+            keyPassword '123456'
         }
     }
     buildTypes {
